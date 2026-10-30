@@ -1,0 +1,10 @@
+{
+  "name": "genpark-accio-market-intelligence",
+  "version": "1.0.0",
+  "description": "GenPark Accio Market Intelligence - Price dispersion variance calculator, midpoint price elasticity estimator, and supply chain lead-time safety buffer risk modeler with zero dependencies.",
+  "tools": [
+    "calculate_market_price_dispersion_and_variance",
+    "estimate_competitor_price_elasticity",
+    "assess_supply_chain_lead_time_risk"
+  ]
+}
