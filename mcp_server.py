@@ -48,8 +48,7 @@ def assess_supply_chain_lead_time_risk(
     return json.dumps(res, indent=2)
 
 def main():
-    print("Testing Accio Market Intelligence:")
-    print(calculate_market_price_dispersion_and_variance("[45.0, 48.0, 52.0, 55.0]", 50.0))
+    mcp.run(transport="stdio")
 
 if __name__ == "__main__":
     main()
